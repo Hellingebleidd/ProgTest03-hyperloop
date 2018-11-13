@@ -18,6 +18,7 @@ unsigned long long int hyperloop(unsigned long long int length,
     unsigned long int i;
 //    printf("\nhyperloop(%llu, %u, %u, %u, %u, %u )=...", length, s1, s2, bulkhead, *c1, *c2);
 
+    //Kontrola okrajovych podmienok
     d1 = s1 + bulkhead;         //segment musi ma aj bulkhead
     d2 = s2 + bulkhead;         //segment musi ma aj bulkhead
     if (length <0 || (length < d1 && length < d2))
