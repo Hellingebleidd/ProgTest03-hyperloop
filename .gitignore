@@ -2,6 +2,9 @@
 tests/*_out_zz.txt
 tests/null
 
+#dokumentacia
+docs/~$*.docx
+
 # Prerequisites
 *.d
 
