@@ -24,7 +24,7 @@ unsigned long long int hyperloop(unsigned long long int length,
     if (length <0 || (length < d1 && length < d2))
         return 0;
 
-    //bla bla pre istotu
+
     length = length - bulkhead; //dlzka -prvy bulkhead
     if (length == 0) {          //len samotny bulkhead
         *c1 = 0;
